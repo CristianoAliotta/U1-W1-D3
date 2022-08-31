@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: smaller;
+}
+
+h1 {
+  color: white;
+  line-height: 1.5;
+  padding-top: 25px;
+  font-size: larger;
+}
+
+#header {
+  background-color: #03a1c6;
+  border-bottom: 5px solid #007794;
+  width: 100%;
+  height: 27vh;
+  text-align: center;
+  margin-top: 0;
+  font-size: larger;
+}
+
+#name {
+  background-color: white;
+  color: #03a1c6;
+  margin-top: 30px;
+}
+
+#header2 {
+  line-height: 5;
+  line-height: 3;
+}
+
+.description {
+  font-variant: small-caps;
+}
+
+.titles {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 3.5;
+  font-weight: 545;
+  color: #007794;
+  font-size: larger;
+}
+
+#mainpic {
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 9px;
+  width: 75%;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1;
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.maininfo {
+  font-weight: bold;
+}
+
+a {
+  color: rgba(255, 66, 66, 0.716);
+}
+
+.numbers {
+  font-family: "Roboto Mono", monospace;
+  font-size: small;
+}
+
+#sudime {
+  line-height: 3.5;
+  font-weight: 550;
+}
+
+#quote {
+}

@@ -10,34 +10,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Curriculum vitae <span>Mario Rossi</span></h1>
-      <h2>Web developer &amp; Consulente SEO</h2>
+    <header id="header">
+      <h1>
+        CURRICULUM VITAE <br />
+        <span id="name">MARIO ROSSI</span>
+      </h1>
+      <h2 id="header2"><b>W</b><span class="description">eb developer</span> <b>&amp; C</b><span class="description">onsulente</span><b> SEO</b></h2>
     </header>
-
-    <hr />
 
     <main>
       <section>
         <div>
-          <h2>Info personali</h2>
-          <figure>
-            <img src="img/profilo.jpg" alt="Foto profilo" width="240" height="130" />
+          <h2 class="titles"><b>Info personali</b></h2>
+          <figure class="figure">
+            <img src="img/profilo.jpg" alt="Foto profilo" width="240" height="130" id="mainpic" />
             <figcaption>La mia postazione di lavoro!</figcaption>
+            <br />
           </figure>
           <address>
-            <img src="img/calendar.svg" alt="" width="20" height="20" /> <b>Data di nascita:</b> 22-10-1993<br />
-            <img src="img/smartphone.svg" alt="" width="20" height="20" /> <b>Telefono:</b> <a href="tel:0610203040" title="chiamami per un colloquio">06-10203040</a><br />
-            <img src="img/whatsapp.svg" alt="" width="20" height="20" /> <b>Whatsapp:</b> <a href="https://wa.me/0610203040" title="mandami un messaggio">06-10203040</a>
+            <img src="img/calendar.svg" alt="" width="20" height="20" /> <span class="maininfo"> Data di nascita:</span><span class="numbers"> 22-10-1993</span><br />
+            <img src="img/smartphone.svg" alt="" width="20" height="20" /> <span class="maininfo"> Telefono:</span>
+            <a href="tel:0610203040" title="chiamami per un colloquio"><span class="numbers">06-10203040</span></a
+            ><br />
+            <img src="img/whatsapp.svg" alt="" width="20" height="20" /> <span class="maininfo"> Whatsapp:</span>
+            <a href="https://wa.me/0610203040" title="mandami un messaggio"><span class="numbers">06-10203040</span></a>
           </address>
-          <p><b>Su di me:</b></p>
-          <blockquote>
+          <p id="sudime">Su di me:</b></p>
+          <blockquote id="quote">
             <p>"Sembra sempre impossibile, finché non viene fatto." <cite>(Nelson Mandela)</cite></p>
           </blockquote>
         </div>
 
         <div>
-          <h2>Presentazione</h2>
+          <h2 class="titles">Presentazione</h2>
           <p>
             Lavoro come <strong>sviluppatore Front End</strong> in qualità di libero professionista secondo il motto <q>"Fai della tua passione un lavoro e non lavorerai nemmeno per 1 giorno"</q>.
             Collaboro con aziende pubbliche e private su <strong>progetti in fase di startup</strong>, sia come sviluppatore che come <em>consulente SEO</em> per partire con il piede giusto.
@@ -48,7 +53,7 @@
       <hr />
       <section>
         <div>
-          <h2>Formazione</h2>
+          <h2 class="titles">Formazione</h2>
           <h3>Diploma scientifico</h3>
           <p>Conseguito nel 2010 con <mark>votazione 100/100</mark> presso l'istituto Righi.</p>
           <h3>Master Web Developer</h3>
@@ -60,7 +65,7 @@
       </section>
 
       <section>
-        <h2>Competenze</h2>
+        <h2 class="titles">Competenze</h2>
 
         <div>
           <h3>Conoscenze tecniche</h3>
