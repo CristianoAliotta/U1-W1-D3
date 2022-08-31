@@ -37,7 +37,7 @@
           </address>
           <p id="sudime">Su di me:</b></p>
           <blockquote id="quote">
-            <p>"Sembra sempre impossibile, finché non viene fatto." <cite>(Nelson Mandela)</cite></p>
+            <p class="mandela">"Sembra sempre impossibile, finché non viene fatto." <cite>(Nelson Mandela)</cite></p>
           </blockquote>
         </div>
 
@@ -50,13 +50,13 @@
         </div>
       </section>
 
-      <hr />
-      <section>
+      
+      <section class="formazione">
         <div>
           <h2 class="titles">Formazione</h2>
-          <h3>Diploma scientifico</h3>
+          <h3 class="diploma">Diploma scientifico</h3>
           <p>Conseguito nel 2010 con <mark>votazione 100/100</mark> presso l'istituto Righi.</p>
-          <h3>Master Web Developer</h3>
+          <h3 class="diploma">Master Web Developer</h3>
           <p>
             Conseguito nel 2016 presso <a href="https://www.epicode.school" target="_blank" title="Il sito della scuola dove mi sono certificato">Epicode School</a>.<br />
             Riconosciuto in via ufficiale per crediti formativi. Il certificato è stato rinnovato nel 2019 tramite nuovo esame.
@@ -68,20 +68,22 @@
         <h2 class="titles">Competenze</h2>
 
         <div>
-          <h3>Conoscenze tecniche</h3>
-          <p>Le conoscenze nel mio bagaglio tecnico sono le seguenti:</p>
-          <ul>
+          <h3 class="diploma">Conoscenze tecniche</h3>
+          <p id="conoscenze">Le conoscenze nel mio bagaglio tecnico sono le seguenti:</p>
+          <div id="list1">
+          <ul class="list">
             <li><abbr title="HyperText Markup Language">&lt;HTML&gt;</abbr></li>
             <li><abbr title="Cascading Style Sheet">CSS</abbr></li>
             <li>Javascript/Typescript</li>
             <li>Angular</li>
             <li>Technical SEO</li>
           </ul>
+          </div>
         </div>
 
         <div>
-          <h3>Conoscenze operative</h3>
-          <dl>
+          <h3 class="diploma">Conoscenze operative</h3>
+          <dl class="list">
             <dt>Sviluppo web</dt>
             <dd>Dal PSD all'HTML, sviluppo di <strong>template per CMS</strong></dd>
             <dt>Ottimizzazione CSS</dt>
@@ -93,17 +95,16 @@
       </section>
     </main>
 
-    <hr />
 
     <footer>
-      <p>
+      <p id="print">
         Per stampare questa pagina premere i tasti <kbd>Ctrl + P</kbd><br />oppure<br /><a href="doc/curriculum.pdf" target="_blank" title="Il mio Curriculum in formato PDF - 20Kb"
-          >Scarica il mio C.V.</a
-        >
+          >Scarica il mio C.V.</a>
       </p>
       <p><small>Autorizzo il trattamento dei dati personali secondo il decreto vigente</small></p>
-      <hr />
+    <div  id="copy">
       <p>Copyright &copy;2021 - Tutti i diritti riservati</p>
+    </div>
     </footer>
   </body>
 </html>
