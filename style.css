@@ -125,7 +125,7 @@ mark {
 }
 
 #conoscenze {
-  line-height: 3;
+  line-height: 2;
 }
 
 dd {
@@ -163,4 +163,8 @@ kbd {
   font-style: italic;
   font-weight: 600;
   color: yellow;
+}
+
+#presentazione {
+  line-height: 1.5;
 }
